@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+    </head>
+    <body>
+        <h1>Logica de programação com JavaScript</h1>
+        <script>
+          alert("vamos calcular a media dos numeros");//mensagem ao usuario
+            var repeticao= prompt("indique a quantidade de numeros que deseja inserir");//mensagem e criação da variavel para quantos numeros vamos adicionar
+            repeticao = parseInt(repeticao);//converte o valor para inteiro
+            var media = parseInt(repeticao);//converte o valor para inteiro e cria a variavel media que será a divisão da media total
+            var soma=0;//cria a variavel soma que será usada para somar cada um dos valores
+            while(repeticao!=0){//cria o comando de reptição que irá verificar a quantidade de vezes que ocorrerá o loop
+                var numero =prompt("indique um numero"); //cria a variavel numero e solicita um para o usuario
+                numero = parseInt(numero);//converte o valor para inteiro
+                soma=soma+numero;//soma a soma total dos numeros com o valor indicado
+                repeticao--;//subtrai a repetição indicando que já se passou 1 loop
+            };
+            alert("a media total dos numeros é: "+(soma/media));//mostra a media total
+        </script>
+    </body>
+    </html>
+</:doctype>
