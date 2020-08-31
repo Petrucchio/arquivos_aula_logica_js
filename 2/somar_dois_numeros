@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+    </head>
+    <body>
+        <h1>Logica de programação com JavaScript</h1>
+        <script>
+           var numero1 = prompt("por obsequio digite um numero");/* solicita um numero*/
+            numero1 = parseFloat(numero1); //converte o valor recebido para float
+           var numero2 = prompt("digite mais um numero");/*solicita um numero*/
+            numero2 = parseFloat(numero2);//converte o valor recebido para float
+            alert(numero1+numero2)
+        </script>
+    </body>
+    </html>
+</:doctype>
